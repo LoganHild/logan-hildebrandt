@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <article>
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <p>Full-stack web developer leveraging a background in customer service and care for disabled adults. 
         Working with disabled adults provided skills in working with others and goal-oriented tasks while developing skills with decision making and problem solving as an independent staff member. 
         The independence taught skills in how to stay focused, organized,  calm under stress, and to adapt to change.
