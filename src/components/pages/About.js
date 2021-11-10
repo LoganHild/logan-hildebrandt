@@ -20,7 +20,7 @@ export default function About() {
       <figure>
         <img class="teddy photo" src="./assets/images/Teddy.jpg" alt="My family dog, Teddy."></img>
         <img id="family" src="./assets/images/Family.jpg" alt="Myself and Family at brother's football game."></img>
-        <img src="./assets/images/Teddy2.jpg" alt="Another picture of my dog, Teddy" class="teddy photo"></img>
+        <img src="./assets/images/Teddy2.jpg" alt="My family dog, Teddy" class="teddy photo"></img>
       </figure>
     </article>
   );
