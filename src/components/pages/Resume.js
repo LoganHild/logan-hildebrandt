@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/newResume.pdf'
+
 export default function Resume() {
   return (
     <div>
@@ -7,7 +7,7 @@ export default function Resume() {
       <p>
         Thanks for visiting my Portfolio Website! 
       </p>
-      <a href="../../assets/newResume.pdf" download="../../assets/newResume.pdf">Resume Download</a>
+      <a href="./assets/newResume.pdf" download="./assets/newResume.pdf">Resume Download</a>
     </div>
   );
 }
