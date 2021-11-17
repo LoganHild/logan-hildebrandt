@@ -4,7 +4,6 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Header from './Header';
 import Footer from './Footer';
 
 //for checking the current page and changing components accordingly
@@ -30,7 +29,6 @@ export default function PortfolioContainer() {
   //returns the header, current page, and footer
   return (
     <div>
-      <Header />
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />

@@ -1,11 +1,10 @@
 import React from 'react';
-import './Projects.css'
 
 export default function Projects() {
   return (
       //returns my project section with the cards associated with each project
     <section>
-      <h3 id="projects" className="col-4">Projects</h3>
+      <h2 id="projects" className="col-4">Projects</h2>
         <div className="center">
             {/*Welcome Neighbor card */}
             <div className="card">

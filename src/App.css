@@ -4,11 +4,8 @@ body {
 .selfPortrait {
     width: 300px;
     margin: 20px;
-    float: left;
 }
-.aboutMe {
-    float: right;
-}
+
 h1 {
     font-size: 100px;
 }
@@ -75,4 +72,13 @@ h1 {
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background: #343a40;
+}
+.card {
+    width: 50rem;
+    margin: 20px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
