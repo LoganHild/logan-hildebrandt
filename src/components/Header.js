@@ -3,7 +3,9 @@ import React from 'react';
 export default function Header() {
     return (
         <div>
-            <h1>Logan Hildebrandt</h1>
+          <figure>
+            <img className='selfPortrait' src="./assets/images/portfolio.jpg" alt="Myself"/>
+          </figure> 
         </div>
     );
 }

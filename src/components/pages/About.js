@@ -1,13 +1,18 @@
 import React from 'react';
-import './About.css'
 
 export default function About() {
   return (
     <div className='aboutContainer'>
-      {/* <figure>
-        <img className='selfPortrait' src="./assets/images/portfolio.jpg" alt="Myself"/>
-      </figure>  */}
-         
+      <article className="aboutMe">
+        <h2>About Me</h2>
+        <p> I am from Cannon Falls, Minnesota, a town of 4,000 or so people, currently residing in Red Wing, Minnesota.
+          I've worked as a DSP for about 6 years taking care of vulnerable adults.
+          My favorite hobby is just being at home and relaxing. I love Dogs, and I try to visit my family dog whenever I have a chance. His name is Teddy.
+          Lately I have really enjoyed working with CSS and getting to see my changes in real time.
+          I enjoy playing Video Games in my free time but lately I have been focused on trying new recipes, exercising more, 
+          and just trying to live a healthier lifestyle in general.
+        </p>
+      </article>  
       {/*image slider */}
       <div className="slider">
         <div className="slides">
@@ -32,25 +37,7 @@ export default function About() {
             <div className="auto-btn3"></div>
           </div>
         </div>
-        {/*manual navigation*/}
-        <div className="navigation-manual">
-          <label for="radio1" className="manual-btn"></label>
-          <label for="radio2" className="manual-btn"></label>
-          <label for="radio3" className="manual-btn"></label>
-        </div>
       </div>
-      <article className="aboutMe">
-        <h2>About Me</h2>
-        <p> I am from Cannon Falls, Minnesota, a town of 4,000 or so people, currently residing in Red Wing, Minnesota.
-          I've worked as a DSP for about 6 years taking care of vulnerable adults.
-          My favorite hobby is just being at home and relaxing. I love Dogs, and I try to visit my family dog whenever I have a chance. His name is Teddy.
-          Lately I have really enjoyed working with CSS and getting to see my changes in real time.
-          I enjoy playing Video Games in my free time but lately I have been focused on trying new recipes, exercising more, 
-          and just trying to live a healthier lifestyle in general.
-        </p>
-      </article>   
-
-
     </div>
   );
 }
