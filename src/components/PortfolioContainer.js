@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Header from './Header';
 import Footer from './Footer';
 
+//for checking the current page and changing components accordingly
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -26,6 +27,7 @@ export default function PortfolioContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+  //returns the header, current page, and footer
   return (
     <div>
       <Header />
