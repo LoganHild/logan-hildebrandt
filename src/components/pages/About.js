@@ -3,6 +3,9 @@ import React from 'react';
 export default function About() {
   return (
     <div className='aboutContainer'>
+      <figure>
+        <img className='selfPortrait' src="./assets/images/portfolio.jpg" alt="Myself"/>
+      </figure> 
       <article className="aboutMe">
         <h2>About Me</h2>
         <p> I am from Cannon Falls, Minnesota, a town of 4,000 or so people, currently residing in Red Wing, Minnesota.

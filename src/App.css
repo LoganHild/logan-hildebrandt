@@ -4,6 +4,10 @@ body {
 .selfPortrait {
     width: 300px;
     margin: 20px;
+    float: left;
+}
+.aboutMe {
+    float: right;
 }
 h1 {
     font-size: 100px;
