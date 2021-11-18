@@ -3,8 +3,8 @@ import React from 'react';
 export default function Footer() {
     return (
         <div className="footer">
-            <h5>Logan Hildebrandt</h5>
-            <p>Copyright <i class="far fa-copyright"></i> 2021</p>
+            <h6>Logan Hildebrandt</h6>
+            <p className="copyright">Copyright <i class="far fa-copyright"></i> 2021</p>
             <div>
                 <a href="https://www.instagram.com/log_hildebrandt/" rel="noreferrer"  target="_blank"><i class="fab fa-instagram fa-2x social"></i></a>
                 <a href="https://www.facebook.com/logan.hildebrandt/" rel="noreferrer" target="_blank"><i class="fab fa-facebook fa-2x social"></i></a>
