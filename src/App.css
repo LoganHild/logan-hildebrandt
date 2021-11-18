@@ -1,18 +1,21 @@
+:root {
+    --backgroundImg: url('https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-natural-stone-wall_38607-886.jpg?size=626&ext=jpg')
+}
 body {
     background-color: #f8f9fa;
 }
 .portfolio-container {
-    background-color: #f8f9fa;
+    background-color: #adb5bd;
 }
 .aboutContainer {
-    background-color: #f8f9fa;
+    background-color: #adb5bd;
 }
 .selfPortrait {
     width: 300px;
     margin: 20px;
 }
 #navbar {
-    background-image: url('https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-natural-stone-wall_38607-886.jpg?size=626&ext=jpg');
+    background-image: var(--backgroundImg);
 }
 .columns {
     display: flex;
@@ -202,9 +205,24 @@ h6 {
     color: white;
 }
 
+/* resume page css*/
+.about-me {
+
+}
+.skills {
+    background-image: var(--backgroundImg);
+    color: white !important;
+}
+.resume-headers {
+    background-color: #212529;
+    color: white;
+    text-shadow: 5px 2px 5px black;
+}
+
+
 @media (max-width: 320px) {
     #nav-title {
-        font-size: 40px;
+        font-size: 35px;
     }
     #toggle-nav {
         display: flex;

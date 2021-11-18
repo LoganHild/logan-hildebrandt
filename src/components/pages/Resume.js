@@ -6,8 +6,7 @@ export default function Resume() {
       <h2>Resume</h2>
       <a href="./assets/newResume.pdf" download="./assets/newResume.pdf">Resume Download</a>
             
-      <h3>LOGAN HILDEBRANDT</h3>
-      <p>
+      <p className="about-me">
         Full-stack web developer leveraging a background in customer service and care for disabled 
         adults. Working with disabled adults provided skills in working with others and goal-oriented tasks while developing skills with 
         decision making and problem solving as an independent staff member. About 6 years in total spent in this position taught skills in how to stay focused, 
@@ -19,52 +18,52 @@ export default function Resume() {
         to gain proficiency in HTML, CSS, and JavaScript. My goal with these newly acquired skills is to create a user-friendly, accessible, and interactive web 
         experience for every user, while aligning with specific goals and exceeding expectations.
       </p>
-      <h4>Technical Skills</h4>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScrip</li>
-        <li>Node JS</li>
-        <li>JQuery</li>
-        <li>Moment.js</li>
-        <li>Node.js</li>
-        <li>Bootstrap</li>
-        <li>Handlebars.js</li>
-        <li>API Experience</li>
-        <li>NPM Packages</li>
-        <li>Test Driven Development(TDD)</li>
-        <li>Regular Expressions(REGEX)</li>
-        <li>Express</li>
-        <li>MySQL</li>
-        <li>Sequelize</li>
-        <li>MySQLWorkbench</li>
-        <li>MongoDBMongoose</li>
-        <li>Mongoose</li>
-        <li>Robo 3T</li>
-        <li>MongoDB Atlas</li>
-        <li>React</li>
-        <li>RESTful API's</li>
-        <li>Heroku</li>
-        <li>GitHub</li>
-        <li>Figma</li>
-        <li>GraphQl</li>
+      <h4 className="resume-headers col-4">Technical Skills</h4>
+      <ul className="skills col-4">
+        <li className="list-group-item list-group-item-dark">HTML</li>
+        <li className="list-group-item">CSS</li>
+        <li className="list-group-item list-group-item-dark">JavaScript</li>
+        <li className="list-group-item">Node JS</li>
+        <li className="list-group-item list-group-item-dark">JQuery</li>
+        <li className="list-group-item">Moment.js</li>
+        <li className="list-group-item list-group-item-dark">Node.js</li>
+        <li className="list-group-item">Bootstrap</li>
+        <li className="list-group-item list-group-item-dark">Handlebars.js</li>
+        <li className="list-group-item">API Experience</li>
+        <li className="list-group-item list-group-item-dark">NPM Packages</li>
+        <li className="list-group-item">Test Driven Development(TDD)</li>
+        <li className="list-group-item list-group-item-dark">Regular Expressions(REGEX)</li>
+        <li className="list-group-item">Express</li>
+        <li className="list-group-item list-group-item-dark">MySQL</li>
+        <li className="list-group-item">Sequelize</li>
+        <li className="list-group-item list-group-item-dark">MySQLWorkbench</li>
+        <li className="list-group-item">MongoDBMongoose</li>
+        <li className="list-group-item list-group-item-dark">Mongoose</li>
+        <li className="list-group-item">Robo 3T</li>
+        <li className="list-group-item list-group-item-dark">MongoDB Atlas</li>
+        <li className="list-group-item">React</li>
+        <li className="list-group-item list-group-item-dark">RESTful API's</li>
+        <li className="list-group-item">Heroku</li>
+        <li className="list-group-item list-group-item-dark">GitHub</li>
+        <li className="list-group-item">Figma</li>
+        <li className="list-group-item list-group-item-dark">GraphQl</li>
       </ul>
-      <h4>Soft Skills</h4>
-      <ul>
-        <li>Organized</li>
-        <li>Attention to Detail</li>
-        <li>Problem Solving</li>
-        <li>Calm Under Stress</li>
-        <li>Adaptability</li>
-        <li>StoryTeller</li>
-        <li>Collaberative</li>
-        <li>Passionate</li>
-        <li>Eager to Learn</li>
+      <h4 className="resume-headers col-4">Soft Skills</h4>
+      <ul className="skills col-4">
+        <li className="list-group-item">Organized</li>
+        <li className="list-group-item list-group-item-dark">Attention to Detail</li>
+        <li className="list-group-item">Problem Solving</li>
+        <li className="list-group-item list-group-item-dark">Calm Under Stress</li>
+        <li className="list-group-item">Adaptability</li>
+        <li className="list-group-item list-group-item-dark">StoryTeller</li>
+        <li className="list-group-item">Collaborative</li>
+        <li className="list-group-item list-group-item-dark">Passionate</li>
+        <li className="list-group-item">Eager to Learn</li>
       </ul>
-      <h4>Education</h4>
-      <ul>
-        <li>Certificate, Full Stack Web Development—University of Minnesota	Minneapolis, MN</li>
-        <li>High School Diploma—Cannon Falls High School	Cannon Falls, MN</li>
+      <h4 className="resume-headers col-4">Education</h4>
+      <ul className="skills col-4">
+        <li className="list-group-item list-group-item-dark">Certificate, Full Stack Web Development—University of Minnesota	Minneapolis, MN</li>
+        <li className="list-group-item">High School Diploma—Cannon Falls High School	Cannon Falls, MN</li>
       </ul>
     </div>
   );

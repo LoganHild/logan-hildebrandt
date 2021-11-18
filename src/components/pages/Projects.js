@@ -8,7 +8,7 @@ export default function Projects() {
         <div>
             {/*Welcome Neighbor card */}
             <div className="columns col-12">
-                <div className="col-4 card">
+                <div className="col-5 card">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/welcomeNeighbor.png" 
@@ -58,7 +58,7 @@ export default function Projects() {
                 {/*Welcome Neighbor end*/}
 
                 {/*Forecast app card*/}
-                <div className="card column col-4">
+                <div className="card column col-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/forecast-with-a-chance-of-camping.png" 
@@ -118,7 +118,7 @@ export default function Projects() {
             
                 {/*Weather App card*/}
             <div className="columns col-12">
-                <div className="card col-4">
+                <div className="card col-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/weather-or-not.png" 
@@ -167,7 +167,7 @@ export default function Projects() {
 
             {/*Scribe app*/}
             
-                <div className="card col-4">
+                <div className="card col-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/Scribe.png" 
@@ -209,7 +209,7 @@ export default function Projects() {
             
             {/*Team generator card*/}
             <div className="columns col-12">
-                <div className="card col-4">
+                <div className="card col-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/team-profile-generator.png" 
@@ -240,7 +240,7 @@ export default function Projects() {
                 {/*Team generator card end */}
 
                 {/*Expense pal App card*/}
-                <div className="card col-4">
+                <div className="card col-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/expense-pal.png" 
