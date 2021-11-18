@@ -2,13 +2,13 @@
     --backgroundImg: url('https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-natural-stone-wall_38607-886.jpg?size=626&ext=jpg')
 }
 body {
-    background-color: #f8f9fa;
+    background-color: #dee2e6;
 }
 .portfolio-container {
-    background-color: #adb5bd;
+    background-color: #dee2e6;
 }
 .aboutContainer {
-    background-color: #adb5bd;
+    background-color: #dee2e6;
 }
 .selfPortrait {
     width: 300px;
@@ -21,6 +21,10 @@ body {
     display: flex;
     flex-direction: row;
 }
+h2 {
+    text-align: center;
+
+}
 
 /*nav css*/
 #nav-title {
@@ -32,7 +36,6 @@ body {
 .navbar {
     background: #343a40;
 }
-
 
 /*about link*/
 #about-link {
@@ -212,11 +215,12 @@ h6 {
 .skills {
     background-image: var(--backgroundImg);
     color: white !important;
+    box-shadow: 5px 5px 5px #343a40;
 }
-.resume-headers {
+.resume-headers, h2 {
     background-color: #212529;
     color: white;
-    text-shadow: 5px 2px 5px black;
+    box-shadow: 5px 5px 20px #343a40;
 }
 
 
