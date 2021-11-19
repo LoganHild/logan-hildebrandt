@@ -17,7 +17,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange('About')}
                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >
-                About
+                About Me
                 <i class="far fa-address-card"></i>
               </a>
             </li>
@@ -28,7 +28,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange('Projects')}
                 className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
               >
-                Projects
+                Portfolio
                 <i class="fas fa-project-diagram"></i>
               </a>
             </li>

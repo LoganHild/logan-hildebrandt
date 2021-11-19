@@ -1,28 +1,65 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../../utils/validate";
 
 function Contact() {
-  let [userName, setUserName] = useState("");
+  let [name, setName] = useState("");
   let [email, setEmail] = useState("");
-  let [text, setText] = useState("");
+  let [message, setMessage] = useState("");
 
-  const [errorMessage, setErrorMessage] = useState("");
+  const [userMessage, setUserMessage] = useState("");
 
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { name, value } = e.target;
+  const handleChange = (e) => {
+    const { id, value } = e.target;
 
-    if (name === "email") {
+    if (id === "email") {
       setEmail(value);
-    } else if (name === "userName") {
-      setUserName(value);
+    } else if (id === "name") {
+      setName(value);
     } else {
-      setText(value);
+      setMessage(value);
     }
     return;
   };
 
+  const validateInput = (e) => {
+    if (!e.target.value.length) {
+      setUserMessage(`Your ${e.target.id} is required!`);
+    } else {
+      setUserMessage("");
+    }
+  };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!name) {
+      setUserMessage("Your name is required!");
+    } else if (!email) {
+      setUserMessage("Your email is required!");
+    } else if (!message) {
+      setUserMessage("Your message is required!");
+    } else {
+      setUserMessage("");
+    }
+
+    const isValid = validateEmail(email);
+
+    if (!isValid) {
+      setUserMessage("Your email is invalid!");
+    } else {
+      setUserMessage(`Thank you, ${name}!`);
+    }
+
+    // Add post to Formspree
+
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
+  return (
+   
+  );
 }
 
 export default Contact;
