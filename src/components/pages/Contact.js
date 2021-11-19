@@ -58,7 +58,63 @@ function Contact() {
   };
 
   return (
-   
+    <section>
+      <h1>Contact me</h1>
+      <form
+        id="contact-form"
+        action="https://formspree.io/f/mnqleyjl"
+        method="POST"
+      >
+        <div>
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            autoComplete="false"
+            name="name"
+            placeholder="Enter name"
+            value={name}
+            onChange={handleChange}
+            onBlur={validateInput}
+            id="name"
+          />
+        </div>
+
+        <div>
+          <label htmlFor="email">Email address:</label>
+          <input
+            type="email"
+            autoComplete="false"
+            name="_replyto"
+            placeholder="Enter email"
+            value={email}
+            onChange={handleChange}
+            onBlur={validateInput}
+            id="email"
+          />
+        </div>
+
+        <div>
+          <label htmlFor="message">Message:</label>
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Thanks for your feedback"
+            value={message}
+            onChange={handleChange}
+            onBlur={validateInput}
+            id="message"
+          />
+        </div>
+        {userMessage && (
+          <div>
+            <p className="error-text">{userMessage}</p>
+          </div>
+        )}
+        <button onClick={handleSubmit} type="submit" data-testid="button">
+          Submit
+        </button>
+      </form>
+    </section>
   );
 }
 
