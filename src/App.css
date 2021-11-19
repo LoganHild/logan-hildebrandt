@@ -210,19 +210,34 @@ h6 {
 
 /* resume page css*/
 .about-me {
-
 }
 .skills {
     background-image: var(--backgroundImg);
     color: white !important;
     box-shadow: 5px 5px 5px #343a40;
+    margin-left: 20px;
 }
 .resume-headers, h2 {
     background-color: #212529;
     color: white;
     box-shadow: 5px 5px 20px #343a40;
+    text-align: center;
+    margin-left: 20px;
 }
+#download-link {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#download-link:hover {
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px white;
 
+}
+#download-link:focus {
+    border: 2px solid white;
+    box-shadow: 5px 5px 15px white;
+}
 
 @media (max-width: 320px) {
     #nav-title {
