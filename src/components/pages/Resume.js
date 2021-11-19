@@ -7,7 +7,7 @@ export default function Resume() {
 
       <div class="card col-4">
         <div class="card-body bg-dark">      
-          
+          {/*cover letter and pdf download*/}
           <p className="about-me bg-light ">
             Full-stack web developer leveraging a background in customer service and care for disabled 
             adults. Working with disabled adults provided skills in working with others and goal-oriented tasks while developing skills with 
@@ -25,7 +25,9 @@ export default function Resume() {
           </div>
         </div>
       </div>
+      {/*cover letter and pdf download end*/}
 
+      {/*technical skills */}
       <h4 className="resume-headers col-4">Technical Skills</h4>
       <ul className="skills col-4">
         <li className="list-group-item list-group-item-dark">HTML</li>
@@ -56,6 +58,9 @@ export default function Resume() {
         <li className="list-group-item">Figma</li>
         <li className="list-group-item list-group-item-dark">GraphQl</li>
       </ul>
+      {/*technical skills end */}
+
+      {/*soft skills */}
       <h4 className="resume-headers col-4">Soft Skills</h4>
       <ul className="skills col-4">
         <li className="list-group-item">Organized</li>
@@ -68,11 +73,15 @@ export default function Resume() {
         <li className="list-group-item list-group-item-dark">Passionate</li>
         <li className="list-group-item">Eager to Learn</li>
       </ul>
+      {/*soft skills end*/}
+
+      {/*education*/}
       <h4 className="resume-headers col-4">Education</h4>
       <ul className="skills col-4">
         <li className="list-group-item list-group-item-dark">Certificate, Full Stack Web Development—University of Minnesota	Minneapolis, MN</li>
         <li className="list-group-item">High School Diploma—Cannon Falls High School	Cannon Falls, MN</li>
       </ul>
+      {/*education end*/}
     </div>
   );
 }

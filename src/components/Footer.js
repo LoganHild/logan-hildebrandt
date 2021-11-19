@@ -1,5 +1,6 @@
 import React from 'react';
 
+//returns footer with social links
 export default function Footer() {
     return (
         <div className="footer">
@@ -11,7 +12,6 @@ export default function Footer() {
                 <a href="https://twitter.com/LogHildebrandt" rel="noreferrer" target="_blank"><i class="fab fa-twitter fa-2x social"></i></a>
                 <a href="https://www.linkedin.com/in/logan-hildebrandt-923553210/" rel="noreferrer" target="_blank"><i class="fab fa-linkedin fa-2x social"></i></a>
             </div>
-
         </div>
     )
 }
