@@ -217,7 +217,7 @@ h6 {
     box-shadow: 5px 5px 5px #343a40;
     margin-left: 20px;
 }
-.resume-headers, h2 {
+.resume-headers, h2, .contact-headers, .error-text{
     background-color: #212529;
     color: white;
     box-shadow: 5px 5px 20px #343a40;
@@ -237,6 +237,12 @@ h6 {
 #download-link:focus {
     border: 2px solid white;
     box-shadow: 5px 5px 15px white;
+}
+
+/*Contact page css*/
+.contact-wrapper {
+    height: 100vh;
+    padding: 30px;
 }
 
 @media (max-width: 320px) {

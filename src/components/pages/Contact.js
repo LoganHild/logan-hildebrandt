@@ -58,16 +58,22 @@ function Contact() {
   };
 
   return (
-    <section>
-      <h1>Contact me</h1>
+    <section className="contact-wrapper">
+      <h2 className="col-4">Contact me <i class="fas fa-address-book"></i></h2>        
+      {userMessage && (
+          <div>
+            <p className="error-text col-4"><i class="fas fa-exclamation-triangle"></i>{userMessage}</p>
+          </div>
+        )}
       <form
-        id="contact-form"
+        className="contact-form"
         action="https://formspree.io/f/mnqleyjl"
         method="POST"
       >
         <div>
-          <label htmlFor="name">Name:</label>
+          <label className="contact-headers col-1" htmlFor="name">Name <i class="fas fa-signature"></i></label>
           <input
+            className="col-3"
             type="text"
             autoComplete="false"
             name="name"
@@ -80,8 +86,9 @@ function Contact() {
         </div>
 
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label className="contact-headers col-1" htmlFor="email">Email address <i class="fas fa-envelope-open-text"></i></label>
           <input
+            className="col-3"
             type="email"
             autoComplete="false"
             name="_replyto"
@@ -94,8 +101,9 @@ function Contact() {
         </div>
 
         <div>
-          <label htmlFor="message">Message:</label>
+          <label className="contact-headers col-1" htmlFor="message">Message <i class="far fa-comment-dots"></i></label>
           <textarea
+            className="col-3"
             name="message"
             rows="5"
             placeholder="Thanks for your feedback"
@@ -105,14 +113,10 @@ function Contact() {
             id="message"
           />
         </div>
-        {userMessage && (
-          <div>
-            <p className="error-text">{userMessage}</p>
-          </div>
-        )}
-        <button onClick={handleSubmit} type="submit" data-testid="button">
-          Submit
-        </button>
+
+        <button className="contact-headers col-4" onClick={handleSubmit} type="submit" data-testid="button">
+          Submit <i class="fas fa-arrow-right"></i>
+        </button> 
       </form>
     </section>
   );

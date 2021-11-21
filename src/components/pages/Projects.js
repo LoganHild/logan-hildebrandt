@@ -5,7 +5,7 @@ export default function Projects() {
       //returns my project section with the cards associated with each project
     <section id="project-container">
         <br/>
-      <h2 id="projects" className="col-4">Portfolio</h2>
+      <h2 className="col-4">Portfolio <i class="fas fa-project-diagram"></i></h2>
         <div>
             {/*Welcome Neighbor card */}
             <div className="columns col-12">
