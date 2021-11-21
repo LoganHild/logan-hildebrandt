@@ -59,10 +59,10 @@ function Contact() {
 
   return (
     <section className="contact-wrapper">
-      <h2 className="col-4">Contact me <i class="fas fa-address-book"></i></h2>        
+      <h2 className="col-6">Contact me <i class="fas fa-address-book"></i></h2>        
       {userMessage && (
           <div>
-            <p className="error-text col-4"><i class="fas fa-exclamation-triangle"></i>{userMessage}</p>
+            <p className="error-text col-6"><i class="fas fa-exclamation-triangle"></i>{userMessage}</p>
           </div>
         )}
       <form
@@ -73,7 +73,7 @@ function Contact() {
         <div>
           <label className="contact-headers col-1" htmlFor="name">Name <i class="fas fa-signature"></i></label>
           <input
-            className="col-3"
+            className="col-5"
             type="text"
             autoComplete="false"
             name="name"
@@ -88,7 +88,7 @@ function Contact() {
         <div>
           <label className="contact-headers col-1" htmlFor="email">Email address <i class="fas fa-envelope-open-text"></i></label>
           <input
-            className="col-3"
+            className="col-5"
             type="email"
             autoComplete="false"
             name="_replyto"
@@ -103,7 +103,7 @@ function Contact() {
         <div>
           <label className="contact-headers col-1" htmlFor="message">Message <i class="far fa-comment-dots"></i></label>
           <textarea
-            className="col-3"
+            className="col-5"
             name="message"
             rows="5"
             placeholder="Thanks for your feedback"
@@ -114,7 +114,7 @@ function Contact() {
           />
         </div>
 
-        <button className="contact-headers col-4" onClick={handleSubmit} type="submit" data-testid="button">
+        <button className="contact-headers col-6" onClick={handleSubmit} type="submit" data-testid="button">
           Submit <i class="fas fa-arrow-right"></i>
         </button> 
       </form>

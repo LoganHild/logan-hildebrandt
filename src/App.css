@@ -2,13 +2,13 @@
     --backgroundImg: url('https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-natural-stone-wall_38607-886.jpg?size=626&ext=jpg')
 }
 body {
-    background-color: #dee2e6;
+    background-color: #e9ecef;
 }
 .portfolio-container {
-    background-color: #dee2e6;
+    background-color: #e9ecef;
 }
 .aboutContainer {
-    background-color: #dee2e6;
+    background-color: #e9ecef;
 }
 .selfPortrait {
     width: 300px;
@@ -179,6 +179,43 @@ h1 {
 .card {
     width: 40rem;
     margin: 20px;
+    box-shadow: 5px 5px 20px #343a40;
+
+}
+.portfolio-cards {
+    background-color: #212529;
+    color: white;
+}
+.tech-dark {
+    background-color: #adb5bd !important;
+}
+.tech-gray {
+    background-color: #ced4da !important;
+}
+.tech-light {
+    background-color: #dee2e6 !important;
+}
+.tech-link {
+    color: black
+}
+.tech-link:hover {
+    box-shadow: 5px 5px 15px black;
+    background-color: #212529;
+    color: white;
+}
+.social-link {
+    color: white;
+}
+.social-link:hover {
+    color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px white;
+    padding: 5px;
+}
+.social-link:focus {
+    border: 1px solid white;
+    box-shadow: 5px 5px 15px white;
+    padding: 5px;
 }
 
 /*footer css*/
@@ -209,8 +246,7 @@ h6 {
 }
 
 /* resume page css*/
-.about-me {
-}
+
 .skills {
     background-image: var(--backgroundImg);
     color: white !important;
@@ -244,7 +280,9 @@ h6 {
     height: 100vh;
     padding: 30px;
 }
-
+.contact-container {
+    height: 80vh;
+}
 @media (max-width: 320px) {
     #nav-title {
         font-size: 35px;
