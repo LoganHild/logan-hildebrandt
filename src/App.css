@@ -9,11 +9,16 @@ body {
 }
 .aboutContainer {
     background-color: #e9ecef;
+    margin-bottom: 50px;
 }
 .selfPortrait {
-    width: 300px;
-    margin: 20px;
+    width: 100%;
 }
+.self-portrait-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #navbar {
     background-image: var(--backgroundImg);
 }
@@ -23,7 +28,14 @@ body {
 }
 h2 {
     text-align: center;
-
+}
+.aboutMe {
+    background-color: #212529;
+    margin-left: 20px;
+    padding: 10px;
+}
+.about {
+    background-color: #e9ecef;
 }
 
 /*nav css*/
@@ -36,7 +48,6 @@ h2 {
 .navbar {
     background: #343a40;
 }
-
 /*about link*/
 #about-link {
     color: white;
@@ -111,6 +122,7 @@ h1 {
 
 /*photo gallery css*/
 .slider {
+    margin: auto;
     width: 500px;
     height: 500px;
     border-radius: 10px;
@@ -135,6 +147,28 @@ h1 {
     width: 500px;
     height: 500px;
 }
+/*manual slide navigation css*/
+.navigation-manual {
+    position: absolute;
+    width: 500px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;;
+}
+.manual-btn {
+    border: 2px solid #343a40;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover {
+    background: #343a40;
+}
+
 
 #radio1:checked ~ .first {
     margin-left: -0;
@@ -145,10 +179,11 @@ h1 {
 #radio3:checked ~ .first {
     margin-left: -200%;
 }
+/*auto nav css*/
 .navigation-auto {
     position: absolute;
     display: flex;
-    width: 800px;
+    width: 500px;
     justify-content: center;
     margin-top: 460px;
 }
@@ -171,9 +206,7 @@ h1 {
 #radio3:checked ~ .navigation-auto .auto-btn3 {
     background: #343a40;
 }
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-    background: #343a40;
-}
+
 
 /*card css*/
 .card {
