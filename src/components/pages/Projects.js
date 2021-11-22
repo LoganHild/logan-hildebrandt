@@ -5,11 +5,11 @@ export default function Projects() {
       //returns my project section with the cards associated with each project
     <section id="project-container">
         <br/>
-      <h2 className="col-4">Portfolio <i class="fas fa-project-diagram"></i></h2>
+      <h2 className="col-lg-4">Portfolio <i className="fas fa-project-diagram"></i></h2>
         <div>
             {/*Welcome Neighbor card */}
-            <div className="columns col-12">
-                <div className="col-5 card">
+            <div className="row col-12">
+                <div className="col-lg-5 col-md-11 col-sm-11 col-xs-12 card">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/welcomeNeighbor.png" 
@@ -59,7 +59,7 @@ export default function Projects() {
                 {/*Welcome Neighbor end*/}
 
                 {/*Forecast app card*/}
-                <div className="card column col-5">
+                <div className="card column col-lg-5 col-sm-12">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/forecast-with-a-chance-of-camping.png" 
@@ -118,8 +118,8 @@ export default function Projects() {
                 
             
                 {/*Weather App card*/}
-            <div className="columns col-12">
-                <div className="card col-5">
+            <div className="row col-12">
+                <div className="card col-lg-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/weather-or-not.png" 
@@ -168,7 +168,7 @@ export default function Projects() {
 
             {/*Scribe app*/}
             
-                <div className="card col-5">
+                <div className="card col-lg-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/Scribe.png" 
@@ -209,8 +209,8 @@ export default function Projects() {
                 
             
             {/*Team generator card*/}
-            <div className="columns col-12">
-                <div className="card col-5">
+            <div className="row col-12">
+                <div className="card col-lg-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/team-profile-generator.png" 
@@ -241,7 +241,7 @@ export default function Projects() {
                 {/*Team generator card end */}
 
                 {/*Expense pal App card*/}
-                <div className="card col-5">
+                <div className="card col-lg-5">
                     <img 
                     className="card-img-top" 
                     src="./assets/images/expense-pal.png" 

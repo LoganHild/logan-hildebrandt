@@ -4,11 +4,11 @@ export default function About() {
   return (
     <div className='aboutContainer'>
       <br/>
-      <h2 className="col-4">About Me <i class="far fa-address-card"></i></h2>      
+      <h2 className="col-lg-4">About Me <i className="far fa-address-card"></i></h2>      
 
 
       <br/>
-      <article className="aboutMe col-4">      
+      <article className="aboutMe col-lg-4">      
         <figure className="self-portrait-container">
           <img className='selfPortrait' src="./assets/images/portfolio.jpg" alt="Myself"/>
         </figure>         
@@ -51,9 +51,9 @@ export default function About() {
         </div>   
         {/*manual navigation start */}
         <div className="navigation-manual">
-          <label for="radio1" className="manual-btn"></label>
-          <label for="radio2" className="manual-btn"></label>
-          <label for="radio3" className="manual-btn"></label>
+          <label htmlFor="radio1" className="manual-btn"></label>
+          <label htmlFor="radio2" className="manual-btn"></label>
+          <label htmlFor="radio3" className="manual-btn"></label>
         </div>
         {/*manual navigation end */}
       </div>

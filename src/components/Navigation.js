@@ -6,7 +6,7 @@ function Navigation({ currentPage, handlePageChange }) {
       <nav id="navbar" className="navbar navbar-expand-lg navbar-light">
         <h1 className="navbar-brand" id="nav-title">Logan Hildebrandt</h1>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span id="toggle"><i class="fas fa-bars"></i></span>
+          <span id="toggle"><i className="fas fa-bars"></i></span>
         </button>
         <div className="navbar-expand-lg" id="navbarText">
           <ul id="toggle-nav" className="navbar-nav mr-auto">
@@ -18,7 +18,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >
                 About Me
-                <i class="far fa-address-card"></i>
+                <i className="far fa-address-card"></i>
               </a>
             </li>
             <li className="nav-item">
@@ -29,7 +29,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
               >
                 Portfolio
-                <i class="fas fa-project-diagram"></i>
+                <i className="fas fa-project-diagram"></i>
               </a>
             </li>
             <li className="nav-item">
@@ -40,7 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
               >
                 Resume
-                <i class="far fa-file"></i>
+                <i className="far fa-file"></i>
               </a>
             </li>
             <li className="nav-item">
@@ -51,7 +51,7 @@ function Navigation({ currentPage, handlePageChange }) {
                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
               >
                 Contact
-                <i class="fas fa-address-book"></i>
+                <i className="fas fa-address-book"></i>
               </a>
             </li>
           </ul>
