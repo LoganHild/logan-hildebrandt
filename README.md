@@ -16,7 +16,7 @@
 
 
   ## Description
-  This is my professional portfolio built with react!
+  This is my professional portfolio built with react! Here I showcase some of my previous work samples via knowledge with react.
 
   ## Usage
   Visit the links to learn a little about me, see my project portfolio, take a look at/download my resume, or contact me.
