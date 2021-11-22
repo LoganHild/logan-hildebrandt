@@ -102,6 +102,7 @@ h2 {
     border: 2px solid white;
     box-shadow: 5px 5px 15px white;
 }
+
 /*contact link*/
 #contact-link {
     color: white;
@@ -149,6 +150,7 @@ h1 {
     width: 500px;
     height: 500px;
 }
+
 /*manual slide navigation css*/
 .navigation-manual {
     position: absolute;
@@ -170,8 +172,6 @@ h1 {
 .manual-btn:hover {
     background: #343a40;
 }
-
-
 #radio1:checked ~ .first {
     margin-left: -0;
 }
@@ -181,6 +181,7 @@ h1 {
 #radio3:checked ~ .first {
     margin-left: -200%;
 }
+
 /*auto nav css*/
 .navigation-auto {
     position: absolute;
@@ -195,7 +196,6 @@ h1 {
     border-radius: 10px;
     transition: 1s;
 }
-
 .navigation-auto div:not(:last-child) {
     margin-right: 40px;
 }
