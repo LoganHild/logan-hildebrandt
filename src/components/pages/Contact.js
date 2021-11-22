@@ -59,10 +59,10 @@ function Contact() {
 
   return (
     <section className="contact-wrapper">
-      <h2 className="col-lg-6 col-md-10 col-sm-12 col-12">Contact me <i className="fas fa-address-book"></i></h2>        
+      <h2 className="col-lg-4 col-md-6">Contact me <i className="fas fa-address-book"></i></h2>        
       {userMessage && (
           <div>
-            <p className="error-text col-lg-6 col-md-10 col-sm-10 col-12"><i className="fas fa-exclamation-triangle"></i>{userMessage}</p>
+            <p className="error-text col-lg-4 col-md-6 col-sm-10 col-12"><i className="fas fa-exclamation-triangle"></i>{userMessage}</p>
           </div>
         )}
       <form
@@ -73,7 +73,7 @@ function Contact() {
         <div>
           <label className="contact-headers col-lg-1 col-md-2 col-sm-3 col-3" htmlFor="name">Name <i className="fas fa-signature"></i></label>
           <input
-            className="col-lg-5 col-md-8 col-sm-7 col-xs-12 col-8"
+            className="col-lg-3 col-md-4 col-sm-7 col-xs-12 col-8"
             type="text"
             autoComplete="false"
             name="name"
@@ -88,7 +88,7 @@ function Contact() {
         <div>
           <label className="contact-headers col-lg-1 col-md-2 col-sm-3 col-4" htmlFor="email">Email address <i className="fas fa-envelope-open-text"></i></label>
           <input
-            className="col-lg-5 col-md-8 col-sm-7 col-7"
+            className="col-lg-3 col-md-4 col-sm-7 col-7"
             type="email"
             autoComplete="false"
             name="_replyto"
@@ -103,7 +103,7 @@ function Contact() {
         <div>
           <label className="contact-headers col-lg-1 col-md-2 col-sm-3 col-3" htmlFor="message">Message <i className="far fa-comment-dots"></i></label>
           <textarea
-            className="col-lg-5 col-md-8 col-sm-7 col-8"
+            className="col-lg-3 col-md-4 col-sm-7 col-8"
             name="message"
             rows="5"
             placeholder="Thanks for your feedback"
@@ -114,7 +114,7 @@ function Contact() {
           />
         </div>
 
-        <button className="contact-headers col-lg-6 col-md-10 col-sm-10 col-11" onClick={handleSubmit} type="submit" data-testid="button">
+        <button className="contact-headers col-lg-4 col-md-6 col-sm-10 col-12" onClick={handleSubmit} type="submit" data-testid="button">
           Submit <i className="fas fa-arrow-right"></i>
         </button> 
       </form>

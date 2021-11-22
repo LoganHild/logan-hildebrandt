@@ -3,9 +3,9 @@ export default function Resume() {
   return (
     <div>
       <br/>
-      <h2 className="col-lg-4 col-md-6 col-sm-8">Resume<i className="far fa-file"></i></h2>
+      <h2 className="col-lg-4 col-md-6">Resume<i className="far fa-file"></i></h2>
 
-      <div className="card col-xs-4">
+      <div className="card col-lg-4 col-md-8 col-sm-10 col-12">
         <div className="card-body bg-dark">      
           {/*cover letter and pdf download*/}
           <p className="about-me bg-light ">
@@ -62,7 +62,7 @@ export default function Resume() {
 
       {/*soft skills */}
       <h4 className="resume-headers col-lg-4 col-md-6">Soft Skills<i className="fas fa-user-friends"></i></h4>
-      <ul className="skills col-lg-6 col-md-8">
+      <ul className="skills col-lg-4 col-md-8">
         <li className="list-group-item">Organized</li>
         <li className="list-group-item list-group-item-dark">Attention to Detail</li>
         <li className="list-group-item">Problem Solving</li>
@@ -76,8 +76,8 @@ export default function Resume() {
       {/*soft skills end*/}
 
       {/*education*/}
-      <h4 className="resume-headers col-lg-4">Education<i className="fas fa-university"></i></h4>
-      <ul className="skills col-lg-4">
+      <h4 className="resume-headers col-lg-4 col-md-6">Education<i className="fas fa-university"></i></h4>
+      <ul className="skills col-lg-4 col-md-8">
         <li className="list-group-item list-group-item-dark">Certificate, Full Stack Web Development—University of Minnesota	Minneapolis, MN</li>
         <li className="list-group-item">High School Diploma—Cannon Falls High School	Cannon Falls, MN</li>
       </ul>

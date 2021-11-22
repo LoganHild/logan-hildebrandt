@@ -334,7 +334,9 @@ h6 {
     .card {
         margin: 0px;
     }
-
+    .navigation-manual {
+        margin:-10px;
+    }
 }
 @media (max-width:481px) {
     #nav-title {
@@ -357,8 +359,17 @@ h6 {
     }
     #contact-link {
         font-size: 15px;
+    }    
+    .navigation-manual {
+        width:100%;
+        margin-top: -40px;
+        margin-left: 0.1em
+    }
+    .navigation-auto {
+        width: 100%;
     }
 }
+
 @media (max-width:768px) {
     h2 {
         margin: 0px;

@@ -4,11 +4,11 @@ export default function About() {
   return (
     <div className='aboutContainer'>
       <br/>
-      <h2 className="col-lg-4">About Me <i className="far fa-address-card"></i></h2>      
+      <h2 className="col-lg-4 col-md-6">About Me <i className="far fa-address-card"></i></h2>      
 
 
       <br/>
-      <article className="aboutMe col-lg-4">      
+      <article className="aboutMe col-lg-4 col-md-6">      
         <figure className="self-portrait-container">
           <img className='selfPortrait' src="./assets/images/portfolio.jpg" alt="Myself"/>
         </figure>         
@@ -21,7 +21,7 @@ export default function About() {
         </p>      
       </article>  
       {/*image slider */}
-      <div className="slider">
+      <div className="slider col-xl-3 col-lg-5 col-md-6 col-sm-8 col-12">
         <div className="slides">
           {/*radio button start*/}
           <input type="radio" name="radio-btn" id="radio1"></input>
