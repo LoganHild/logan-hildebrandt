@@ -31,7 +31,7 @@ export default function About() {
 
           {/*slide images */}
           <div className="slide first">
-            <img className="sliderImage" src="./assets/images/Teddy.jpg" alt="My family dog, Teddy."/>
+            <img className="sliderImage" src="./assets/images/teddy.jpg" alt="My family dog, Teddy."/>
           </div>
           <div className="slide">
             <img className="sliderImage" src="./assets/images/family.jpg" alt="My family dog, Teddy."/>
