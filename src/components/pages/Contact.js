@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/validate";
+import emailjs from 'emailjs-com'
 
 function Contact() {
   let [name, setName] = useState("");
@@ -28,6 +29,8 @@ function Contact() {
       setUserMessage("");
     }
   };
+
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -59,15 +62,16 @@ function Contact() {
 
   return (
     <section className="contact-wrapper">
+      
       <h2 className="col-lg-4 col-md-6">Contact me <i className="fas fa-address-book"></i></h2>        
       {userMessage && (
           <div>
-            <p className="error-text col-lg-4 col-md-6 col-sm-10 col-12"><i className="fas fa-exclamation-triangle"></i>{userMessage}</p>
+            <p className="error-text col-lg-4 col-md-6 col-sm-10 col-12">{userMessage}</p>
           </div>
         )}
       <form
         className="contact-form"
-        action="https://formspree.io/f/mnqleyjl"
+        action="https://formsubmit.co/hildebrandtlogan@gmail.com"
         method="POST"
       >
         <div>
@@ -91,7 +95,7 @@ function Contact() {
             className="col-lg-3 col-md-4 col-sm-7 col-7"
             type="email"
             autoComplete="false"
-            name="_replyto"
+            name="email"
             placeholder="Enter email"
             value={email}
             onChange={handleChange}
@@ -118,6 +122,7 @@ function Contact() {
           Submit <i className="fas fa-arrow-right"></i>
         </button> 
       </form>
+
     </section>
   );
 }
