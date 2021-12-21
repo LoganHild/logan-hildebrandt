@@ -30,10 +30,19 @@ function Contact() {
     }
   };
 
+  const sendEmail = (e) => {
+    e.preventDefault();
 
+  
+
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    emailjs.sendForm('service_lpvg2nh', 'template_ehb9z1s', 'form', 'user_OFvkXt7Nuj2hvvlG1ZDNQ').then(res=> {
+      console.log(res);
+    }).catch(err => console.log(err));
 
     if (!name) {
       setUserMessage("Your name is required!");
