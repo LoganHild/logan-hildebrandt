@@ -2,8 +2,8 @@ import React from "react";
 
 const Project = ({ project }) => {
     return (
-        <div className="row col-12">
-            <div className="col-lg-5 col-md-11 col-sm-11 col-xs-12 card">
+        <>
+            <div id="marginFix" className="col-lg-5 col-md-11 col-sm-11 col-xs-11 card">
                 <img 
                 className="card-img-top" 
                 src={require(`../../public/assets/images/${project.image}`).default}
@@ -34,11 +34,11 @@ const Project = ({ project }) => {
                     rel="noreferrer"
                     target="_blank"
                     >
-                        Deployed App <i class="fas fa-window-restore fab"></i>
+                        Deployed <i class="fas fa-window-restore fab"></i>
                     </a>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

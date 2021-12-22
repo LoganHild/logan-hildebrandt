@@ -87,6 +87,14 @@ h2 {
     border: var(--whiteBorder);
     box-shadow: var(--whiteShadow);
 }
+#project-container {
+    display: flex;
+    flex-direction: column;
+}
+#marginFix {
+    padding: 0px;
+}
+
 
 /* resume link*/
 #resume-link {
@@ -225,8 +233,6 @@ h1 {
     width: 40rem;
     margin: 20px;
     box-shadow: var(--grayBoxShadow);
-    
-
 }
 .portfolio-cards {
     background-color: #212529;
@@ -263,6 +269,9 @@ h1 {
     border: 1px solid var(--plainWhite);
     box-shadow: var(--whiteShadow);
     padding: 5px;
+}
+#row {
+   justify-content: center;
 }
 
 /*footer css*/
@@ -380,6 +389,10 @@ h6 {
     .navigation-auto {
         width: 100%;
     }
+    /* #marginFix {
+        padding: 0px;
+        margin: 5px 0px;
+    } */
 }
 
 @media (max-width:768px) {
