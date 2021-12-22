@@ -251,6 +251,7 @@ h1 {
 }
 .social-link {
     color: var(--plainWhite);
+    font-size: 20px;
 }
 .social-link:hover {
     color: var(--plainWhite);
@@ -332,6 +333,7 @@ h6 {
 .columns {
     display: flex;
 }
+
 
 @media (max-width: 320px) {
     #nav-title {

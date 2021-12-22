@@ -30,13 +30,6 @@ function Contact() {
     }
   };
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-  
-
-  }
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -131,7 +124,35 @@ function Contact() {
           Submit <i className="fas fa-arrow-right"></i>
         </button> 
       </form>
-
+      <br></br>
+      <h2 className="col-lg-4 col-md-6">
+        <a 
+        href="mailto:hildebrandtlogan@gmail.com" 
+        className="social-link" 
+        >
+          Email <i class="fas fa-envelope-open-text"></i>
+        </a>
+      </h2> 
+      <h2 className="col-lg-4 col-md-6">
+        <a 
+        href="https://www.linkedin.com/in/logan-hildebrandt-923553210/" 
+        className="social-link"
+        rel="noreferrer"
+        target="_blank"
+        >
+          LinkedIn <i class="fab fa-linkedin"></i>
+        </a>
+      </h2>
+      <h2 className="col-lg-4 col-md-6">
+        <a 
+        href="https://github.com/LoganHild" 
+        className="social-link"
+        rel="noreferrer"
+        target="_blank"
+        >
+          Github <i class="fab fa-github"></i>
+        </a>
+      </h2>
 
     </section>
   );
