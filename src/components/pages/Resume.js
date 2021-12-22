@@ -24,7 +24,7 @@ export default function Resume() {
             <a id="download-link" href="./assets/Resume.pdf" download="./assets/newResume.pdf">Resume Download <i className="fas fa-download"></i></a>
           </div>
         </div>
-      </div>
+      </div>              
       {/*cover letter and pdf download end*/}
 
       {/*technical skills */}

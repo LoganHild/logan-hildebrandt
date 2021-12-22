@@ -131,6 +131,8 @@ function Contact() {
           Submit <i className="fas fa-arrow-right"></i>
         </button> 
       </form>
+      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="logan-hildebrandt-923553210" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/logan-hildebrandt-923553210?trk=profile-badge">Logan Hildebrandt</a></div>
+
 
     </section>
   );
