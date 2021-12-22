@@ -130,7 +130,15 @@ function Contact() {
         href="mailto:hildebrandtlogan@gmail.com" 
         className="social-link" 
         >
-          Email <i class="fas fa-envelope-open-text"></i>
+          hildebrandtlogan@gmail.com <i class="fas fa-envelope-open-text fab"></i>
+        </a>
+      </h2> 
+      <h2 className="col-lg-4 col-md-6">
+        <a 
+        href="tel:5073842518" 
+        className="social-link" 
+        >
+          507-384-2518 <i class="fas fa-phone-square fab"></i>
         </a>
       </h2> 
       <h2 className="col-lg-4 col-md-6">
