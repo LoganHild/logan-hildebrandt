@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Plant-It Sell-It",
+        "image": "plantIt.png",
+        "description": "An ecommerce app for the selling and buying of plant propagations.",
+        "role": "My core responsibilities were the frontend, working on the responsiveness and layout of the shop pages as well as the detail page while collaborating with another developer on the color scheme.",
+        "technologies": "React, Node, Express, CSS, MongoDB/Mongoose, Material UI, GraphQL, Amazon S3 Bucket, JSON Web Token",
+        "github": " https://github.com/delaluz12/plantit-sellit",
+        "deployed": "https://plantit-sellit.herokuapp.com/"
+    },
+    {
+        "name": "Welcome Neighbor!",
+        "image": "welcomeNeighbor.png",
+        "description": "Welcome Neighbor is a web application that allows Users to connect to people in their Neighborhood on a more intimate level in close proximity.",
+        "role": "Developer of homepage, navbar, and SendGrid API functionality",
+        "technologies": "MySQL/Sequelize, Handlebars, SendGrid API, Express, JavaScript, CSS, Bootstrap, SendGrid, Font Awesome, Node, BCrypt",
+        "github": "https://github.com/delaluz12/Welcome-Neighbor",
+        "deployed": "https://hello-neighbor.herokuapp.com/" 
+    },
+    {
+        "name": "Forecast with a Chance of Camping",
+        "image": "forecast-with-a-chance-of-camping.png",
+        "description": "Travel site for identifying national parks in the United States by zip code.",
+        "role": "Sole developer of the weather dashboard, troubleshooting Rec APi, JavaScript for the site.",
+        "technologies": "HTML, CSS, JavaScript, jQuery, API, Bulma, Moment.js",
+        "github": "https://github.com/LoganHild/forecast-with-a-chance-of-camping",
+        "deployed": "https://loganhild.github.io/forecast-with-a-chance-of-camping/"
+    },
+    {
+        "name": "Weather-or-Not",
+        "image": "weather-or-not.png",
+        "description": "An easy to use weather application for the user to see forecasts for searched cities and plan trips or events accordingly.",
+        "role": "Sole Developer of App",
+        "technologies": "Bootstrap, HTML, CSS, JavaScript, jQuery, OpenWeatherMap API",
+        "github": "https://github.com/LoganHild/weather-or-not",
+        "deployed": "https://loganhild.github.io/weather-or-not/"
+    },
+    {
+        "name": "Scribe",
+        "image": "Scribe.png",
+        "description": "This application is a simple note taker application for writing and saving notes via express.",
+        "role": "Sole Developer of App",
+        "technologies": "HTML, CSS, JavaScript, Express, Bootstrap",
+        "github": "https://github.com/LoganHild/scribe",
+        "deployed": "https://scribe-note-taker.herokuapp.com/"
+    },
+    {
+        "name": "Expense-Pal",
+        "image": "expense-pal.png",
+        "description": "PWA budget tracker application to manage expenses whether online or offline.",
+        "role": "Sole Developer of App",
+        "technologies": "HTML, CSS, MongoDB/Mongoose, jQuery, IndexedDB, Express",
+        "github": "https://github.com/LoganHild/expense-pal",
+        "deployed": "https://expense-pal.herokuapp.com/"
+    }
+]
