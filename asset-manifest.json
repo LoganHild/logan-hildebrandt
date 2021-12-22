@@ -1,23 +1,35 @@
 {
   "files": {
     "main.css": "/logan-hildebrandt/static/css/main.a2722a0f.chunk.css",
-    "main.js": "/logan-hildebrandt/static/js/main.e08ea560.chunk.js",
-    "main.js.map": "/logan-hildebrandt/static/js/main.e08ea560.chunk.js.map",
+    "main.js": "/logan-hildebrandt/static/js/main.b3a82ba1.chunk.js",
+    "main.js.map": "/logan-hildebrandt/static/js/main.b3a82ba1.chunk.js.map",
     "runtime-main.js": "/logan-hildebrandt/static/js/runtime-main.602b46dd.js",
     "runtime-main.js.map": "/logan-hildebrandt/static/js/runtime-main.602b46dd.js.map",
     "static/css/2.383c0125.chunk.css": "/logan-hildebrandt/static/css/2.383c0125.chunk.css",
-    "static/js/2.105b2a9a.chunk.js": "/logan-hildebrandt/static/js/2.105b2a9a.chunk.js",
-    "static/js/2.105b2a9a.chunk.js.map": "/logan-hildebrandt/static/js/2.105b2a9a.chunk.js.map",
+    "static/js/2.ae66050b.chunk.js": "/logan-hildebrandt/static/js/2.ae66050b.chunk.js",
+    "static/js/2.ae66050b.chunk.js.map": "/logan-hildebrandt/static/js/2.ae66050b.chunk.js.map",
     "index.html": "/logan-hildebrandt/index.html",
     "static/css/2.383c0125.chunk.css.map": "/logan-hildebrandt/static/css/2.383c0125.chunk.css.map",
     "static/css/main.a2722a0f.chunk.css.map": "/logan-hildebrandt/static/css/main.a2722a0f.chunk.css.map",
-    "static/js/2.105b2a9a.chunk.js.LICENSE.txt": "/logan-hildebrandt/static/js/2.105b2a9a.chunk.js.LICENSE.txt"
+    "static/js/2.ae66050b.chunk.js.LICENSE.txt": "/logan-hildebrandt/static/js/2.ae66050b.chunk.js.LICENSE.txt",
+    "static/media/Scribe.png": "/logan-hildebrandt/static/media/Scribe.5855b3e5.png",
+    "static/media/bluff.jpg": "/logan-hildebrandt/static/media/bluff.3972fe62.jpg",
+    "static/media/expense-pal.png": "/logan-hildebrandt/static/media/expense-pal.478ec2c7.png",
+    "static/media/family.jpg": "/logan-hildebrandt/static/media/family.09fa70be.jpg",
+    "static/media/forecast-with-a-chance-of-camping.png": "/logan-hildebrandt/static/media/forecast-with-a-chance-of-camping.164eb451.png",
+    "static/media/plantIt.png": "/logan-hildebrandt/static/media/plantIt.80c780fe.png",
+    "static/media/portfolio.jpg": "/logan-hildebrandt/static/media/portfolio.5d9469fe.jpg",
+    "static/media/stone-texture.jpg": "/logan-hildebrandt/static/media/stone-texture.a62c0faa.jpg",
+    "static/media/team-profile-generator.png": "/logan-hildebrandt/static/media/team-profile-generator.f8b545ac.png",
+    "static/media/teddy.jpg": "/logan-hildebrandt/static/media/teddy.b6633d0d.jpg",
+    "static/media/weather-or-not.png": "/logan-hildebrandt/static/media/weather-or-not.e36f33b5.png",
+    "static/media/welcomeNeighbor.png": "/logan-hildebrandt/static/media/welcomeNeighbor.f1129548.png"
   },
   "entrypoints": [
     "static/js/runtime-main.602b46dd.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.105b2a9a.chunk.js",
+    "static/js/2.ae66050b.chunk.js",
     "static/css/main.a2722a0f.chunk.css",
-    "static/js/main.e08ea560.chunk.js"
+    "static/js/main.b3a82ba1.chunk.js"
   ]
 }
