@@ -7,7 +7,7 @@ export default function Resume() {
 
       <div>      
 
-        <div className="card col-lg-6 col-md-6 col-sm-10 col-12 center">
+        <div className="card col-lg-6 col-md-6 col-sm-10 col-12">
           <div className="card-body bg-dark">      
             {/*cover letter and pdf download*/}
             <p className="about-me bg-light ">
