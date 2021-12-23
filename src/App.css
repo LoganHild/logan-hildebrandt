@@ -13,6 +13,7 @@
 }
 body {
     background-color: var(--backgroundWhite);
+    height: 10vh;
 }
 .portfolio-container {
     background-color: var(--backgroundWhite);
@@ -27,8 +28,7 @@ body {
 .self-portrait-container {
     display: flex;
     justify-content: flex-start;
-    width: 200px;
-    height: 400px;
+
 }
 
 #navbar {
@@ -46,7 +46,6 @@ h2 {
     margin-left: 20px;
     padding: 5px;
     box-shadow: var(--grayBoxShadow);
-    float: left;
 }
 .about {
     background-color: var(--backgroundWhite);
