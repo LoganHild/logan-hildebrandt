@@ -8,23 +8,24 @@ export default function About() {
 
 
       <br/>
-      <article className="aboutMe col-lg-4 col-md-6">      
-        <figure className="self-portrait-container">
-          <img className='selfPortrait' src="./assets/images/portfolio.jpg" alt="Myself"/>
-        </figure>         
-        <p className="about"><span className="tab">Hello!</span> My name is Logan and I am from Cannon Falls, Minnesota, a town of 4,000 or so people, currently residing in Red Wing, Minnesota.
-          I've worked as a DSP for about 6 years taking care of vulnerable adults.
-          My favorite hobby is just being at home and relaxing. I love Dogs, and I try to visit my family dog whenever I have a chance, his name is Teddy.
-          Lately I have really enjoyed working with React and getting to create powerful single page applications out of nothing.
-          I enjoy playing Video Games in my free time but lately I have been focused on trying new recipes, exercising more, 
-          and just trying to live a healthier lifestyle in general.
-        </p>
-        <p className="about"><span className="tab">I</span> recently took on the commitment of completing the Full-Stack Web Development Boot-Camp course offered by the University of Minnesota.
-          Juggling a full-time job, keeping up on homework, and giving my best to each project. It was during this course I developed a new-found 
-          passion for Web Development, enjoying the challenges and celebrating victories. Nobody enjoys seeing a big red error on the screen
-          but there is truly nothing better than the feeling when a solution is finally found. I am so excited to be a part of an ever-evolving field
-          that never stops moving forward and providing new challenges to hash out. 
-        </p>
+      <article className="aboutMe row col-lg-4 col-md-6">  
+          <figure className="self-portrait-container">
+            <img className='selfPortrait' src="./assets/images/portfolio.jpg" alt="Myself"/>
+          </figure>         
+          <p className="about"><span className="tab">Hello!</span> My name is Logan and I am from Cannon Falls, Minnesota, a town of 4,000 or so people, currently residing in Red Wing, Minnesota.
+            I've worked as a DSP for about 6 years taking care of vulnerable adults.
+            My favorite hobby is just being at home and relaxing. I love Dogs, and I try to visit my family dog whenever I have a chance, his name is Teddy.
+            Lately I have really enjoyed working with React and getting to create powerful single page applications out of nothing.
+            I enjoy playing Video Games in my free time but lately I have been focused on trying new recipes, exercising more, 
+            and just trying to live a healthier lifestyle in general.
+          </p>
+          <p className="about"><span className="tab">I</span> recently took on the commitment of completing the Full-Stack Web Development Boot-Camp course offered by the University of Minnesota.
+            Juggling a full-time job, keeping up on homework, and giving my best to each project. It was during this course I developed a new-found 
+            passion for Web Development, enjoying the challenges and celebrating victories. Nobody enjoys seeing a big red error on the screen
+            but there is truly nothing better than the feeling when a solution is finally found. I am so excited to be a part of an ever-evolving field
+            that never stops moving forward and providing new challenges to hash out. 
+          </p>
+      
   
       </article>  
       {/*image slider */}

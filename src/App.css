@@ -27,6 +27,8 @@ body {
 .self-portrait-container {
     display: flex;
     justify-content: flex-start;
+    width: 200px;
+    height: 400px;
 }
 
 #navbar {
