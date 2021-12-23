@@ -42,11 +42,16 @@ h2 {
 .aboutMe {
     background-color: #212529;
     margin-left: 20px;
-    padding: 10px;
+    padding: 5px;
     box-shadow: var(--grayBoxShadow);
+    float: left;
 }
 .about {
     background-color: var(--backgroundWhite);
+    margin: 0px;
+}
+.tab {
+    margin-left: 40px;
 }
 
 /*nav css*/
@@ -278,6 +283,7 @@ h1 {
 /*footer css*/
 .footer {
     display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     background-image: url('https://img.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-natural-stone-wall_38607-886.jpg?size=626&ext=jpg');
@@ -303,7 +309,10 @@ h6 {
 }
 
 /* resume page css*/
-
+.center {
+    margin: auto;
+    margin-bottom: 20px;
+}
 .skills {
     background-image: var(--backgroundImg);
     color: var(--plainWhite) !important;
@@ -359,6 +368,9 @@ h6 {
     .navigation-manual {
         margin:-10px;
     }
+    .skills {
+        margin-left: 0px;
+    }
 }
 @media (max-width:481px) {
     #nav-title {
@@ -399,5 +411,18 @@ h6 {
 @media (max-width:768px) {
     h2 {
         margin: 0px;
+    }
+    .about {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1024px) {
+    .about {
+        font-size: 2px;
+    }
+}
+@media (max-width: 1440px) {
+    .about {
+        font-size: 13px;
     }
 }

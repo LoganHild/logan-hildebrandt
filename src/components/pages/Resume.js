@@ -2,10 +2,12 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <br/>
+      <br/>        
       <h2 className="col-lg-4 col-md-6">Resume<i className="far fa-file"></i></h2>
-      <div>
-        <div className="card col-lg-4 col-md-8 col-sm-10 col-12">
+
+      <div>      
+
+        <div className="card col-lg-6 col-md-6 col-sm-10 col-12 center">
           <div className="card-body bg-dark">      
             {/*cover letter and pdf download*/}
             <p className="about-me bg-light ">
@@ -28,7 +30,34 @@ export default function Resume() {
         {/*cover letter and pdf download end*/}
       </div>
       <div className="row">        
-        <div className="col-lg-4 col-md-6">
+        {/*technical skills */}
+        <div className="col-lg-4 col-md-6 center">
+          <h4 className="resume-headers">Technical Skills<i className="fas fa-cogs"></i></h4>
+          <ul className="skills">
+            <li className="list-group-item list-group-item-dark">HTML</li>
+            <li className="list-group-item">CSS</li>
+            <li className="list-group-item list-group-item-dark">JavaScript</li>
+            <li className="list-group-item">Node JS</li>
+            <li className="list-group-item list-group-item-dark">JQuery</li>
+            <li className="list-group-item">Bootstrap</li>
+            <li className="list-group-item list-group-item-dark">Handlebars.js</li>
+            <li className="list-group-item">API Experience</li>
+            <li className="list-group-item list-group-item-dark">Test Driven Development(TDD)</li>
+            <li className="list-group-item">Regular Expressions(REGEX)</li>
+            <li className="list-group-item list-group-item-dark">Express</li>
+            <li className="list-group-item">MySQL/Sequelize</li>
+            <li className="list-group-item list-group-item-dark">MongoDB/Mongoose</li>
+            <li className="list-group-item">MongoDB Atlas</li>
+            <li className="list-group-item list-group-item-dark">React</li>
+            <li className="list-group-item">RESTful API's</li>
+            <li className="list-group-item list-group-item-dark">Heroku</li>
+            <li className="list-group-item">GitHub</li>
+            <li className="list-group-item list-group-item-dark">Figma</li>
+            <li className="list-group-item">GraphQl</li>
+          </ul>
+          {/*technical skills end */}
+        </div>
+        <div className="col-lg-4 col-md-6 center">
           {/*soft skills */}
           <h4 className="resume-headers">Soft Skills<i className="fas fa-user-friends"></i></h4>
           <ul className="skills">
@@ -43,53 +72,17 @@ export default function Resume() {
             <li className="list-group-item">Eager to Learn</li>
           </ul>
           {/*soft skills end*/}
-        </div>
-        {/*technical skills */}
-        <div className="col-lg-4 col-md-6">
-          <h4 className="resume-headers">Technical Skills<i className="fas fa-cogs"></i></h4>
-          <ul className="skills">
-            <li className="list-group-item list-group-item-dark">HTML</li>
-            <li className="list-group-item">CSS</li>
-            <li className="list-group-item list-group-item-dark">JavaScript</li>
-            <li className="list-group-item">Node JS</li>
-            <li className="list-group-item list-group-item-dark">JQuery</li>
-            <li className="list-group-item">Moment.js</li>
-            <li className="list-group-item list-group-item-dark">Node.js</li>
-            <li className="list-group-item">Bootstrap</li>
-            <li className="list-group-item list-group-item-dark">Handlebars.js</li>
-            <li className="list-group-item">API Experience</li>
-            <li className="list-group-item list-group-item-dark">NPM Packages</li>
-            <li className="list-group-item">Test Driven Development(TDD)</li>
-            <li className="list-group-item list-group-item-dark">Regular Expressions(REGEX)</li>
-            <li className="list-group-item">Express</li>
-            <li className="list-group-item list-group-item-dark">MySQL</li>
-            <li className="list-group-item">Sequelize</li>
-            <li className="list-group-item list-group-item-dark">MySQLWorkbench</li>
-            <li className="list-group-item">MongoDBMongoose</li>
-            <li className="list-group-item list-group-item-dark">Mongoose</li>
-            <li className="list-group-item">Robo 3T</li>
-            <li className="list-group-item list-group-item-dark">MongoDB Atlas</li>
-            <li className="list-group-item">React</li>
-            <li className="list-group-item list-group-item-dark">RESTful API's</li>
-            <li className="list-group-item">Heroku</li>
-            <li className="list-group-item list-group-item-dark">GitHub</li>
-            <li className="list-group-item">Figma</li>
-            <li className="list-group-item list-group-item-dark">GraphQl</li>
-          </ul>
-          {/*technical skills end */}
+          <div>
+            {/*education*/}
+            <h4 className="resume-headers">Education<i className="fas fa-university"></i></h4>
+            <ul className="skills">
+              <li className="list-group-item list-group-item-dark">Certificate, Full Stack Web Development—University of Minnesota	Minneapolis, MN</li>
+              <li className="list-group-item">High School Diploma—Cannon Falls High School	Cannon Falls, MN</li>
+            </ul>
+            {/*education end*/}
+          </div>
         </div>
 
-
-
-        <div className="col-lg-4 col-md-6">
-          {/*education*/}
-          <h4 className="resume-headers">Education<i className="fas fa-university"></i></h4>
-          <ul className="skills">
-            <li className="list-group-item list-group-item-dark">Certificate, Full Stack Web Development—University of Minnesota	Minneapolis, MN</li>
-            <li className="list-group-item">High School Diploma—Cannon Falls High School	Cannon Falls, MN</li>
-          </ul>
-          {/*education end*/}
-        </div>
       </div>  
     </div>
   );
