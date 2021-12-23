@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/logan-hildebrandt/static/css/main.3b0aec77.chunk.css",
-    "main.js": "/logan-hildebrandt/static/js/main.3b70fa53.chunk.js",
-    "main.js.map": "/logan-hildebrandt/static/js/main.3b70fa53.chunk.js.map",
+    "main.css": "/logan-hildebrandt/static/css/main.27f498a8.chunk.css",
+    "main.js": "/logan-hildebrandt/static/js/main.37986fd5.chunk.js",
+    "main.js.map": "/logan-hildebrandt/static/js/main.37986fd5.chunk.js.map",
     "runtime-main.js": "/logan-hildebrandt/static/js/runtime-main.602b46dd.js",
     "runtime-main.js.map": "/logan-hildebrandt/static/js/runtime-main.602b46dd.js.map",
     "static/css/2.383c0125.chunk.css": "/logan-hildebrandt/static/css/2.383c0125.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.d44ae569.chunk.js.map": "/logan-hildebrandt/static/js/2.d44ae569.chunk.js.map",
     "index.html": "/logan-hildebrandt/index.html",
     "static/css/2.383c0125.chunk.css.map": "/logan-hildebrandt/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.3b0aec77.chunk.css.map": "/logan-hildebrandt/static/css/main.3b0aec77.chunk.css.map",
+    "static/css/main.27f498a8.chunk.css.map": "/logan-hildebrandt/static/css/main.27f498a8.chunk.css.map",
     "static/js/2.d44ae569.chunk.js.LICENSE.txt": "/logan-hildebrandt/static/js/2.d44ae569.chunk.js.LICENSE.txt",
     "static/media/Scribe.png": "/logan-hildebrandt/static/media/Scribe.5855b3e5.png",
     "static/media/bluff.jpg": "/logan-hildebrandt/static/media/bluff.3972fe62.jpg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.602b46dd.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.d44ae569.chunk.js",
-    "static/css/main.3b0aec77.chunk.css",
-    "static/js/main.3b70fa53.chunk.js"
+    "static/css/main.27f498a8.chunk.css",
+    "static/js/main.37986fd5.chunk.js"
   ]
 }
