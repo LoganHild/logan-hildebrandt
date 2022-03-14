@@ -143,7 +143,7 @@ function Contact() {
       </h2> 
       <h2 className="col-lg-4 col-md-6">
         <a 
-        href="https://www.linkedin.com/in/logan-hildebrandt-923553210/" 
+        href="https://www.linkedin.com/in/loganahildebrandt/" 
         className="social-link"
         rel="noreferrer"
         target="_blank"
