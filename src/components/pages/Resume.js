@@ -23,7 +23,7 @@ export default function Resume() {
               experience for every user, while aligning with specific goals and exceeding expectations.
             </p>
             <div className="download">
-              <a id="download-link" href="./assets/Resume.pdf" download="./assets/Resume.pdf">Resume Download <i className="fas fa-download"></i></a>
+              <a id="download-link" href="./assets/updatedResume..pdf" download="./assets/updatedResume.pdf">Resume Download <i className="fas fa-download"></i></a>
             </div>
           </div>
         </div>              
