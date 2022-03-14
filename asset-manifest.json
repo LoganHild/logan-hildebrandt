@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/logan-hildebrandt/static/css/main.98143b20.chunk.css",
-    "main.js": "/logan-hildebrandt/static/js/main.9c1d2813.chunk.js",
-    "main.js.map": "/logan-hildebrandt/static/js/main.9c1d2813.chunk.js.map",
+    "main.js": "/logan-hildebrandt/static/js/main.23657ee2.chunk.js",
+    "main.js.map": "/logan-hildebrandt/static/js/main.23657ee2.chunk.js.map",
     "runtime-main.js": "/logan-hildebrandt/static/js/runtime-main.602b46dd.js",
     "runtime-main.js.map": "/logan-hildebrandt/static/js/runtime-main.602b46dd.js.map",
     "static/css/2.383c0125.chunk.css": "/logan-hildebrandt/static/css/2.383c0125.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.bcf04fc1.chunk.js",
     "static/css/main.98143b20.chunk.css",
-    "static/js/main.9c1d2813.chunk.js"
+    "static/js/main.23657ee2.chunk.js"
   ]
 }
